@@ -5,10 +5,19 @@
 body {
   color: #000;
   background: #F6F6F3;
+  padding: 16px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.wrapper {
+  height: calc(100vh - 32px);
+}
+
+.am5-layer-30 {
+  display: none;
 }

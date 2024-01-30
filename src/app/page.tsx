@@ -1,5 +1,7 @@
-import Image from 'next/image';
+import Dashboard from './component/Dashboard';
+import Sidebar from './component/Sidebar';
+import './styles/all.scss';
 
 export default function Home() {
-  return <div>Hello World</div>;
+  return <Dashboard />;
 }

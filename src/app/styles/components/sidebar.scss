@@ -1,0 +1,51 @@
+.sidebar {
+  position: fixed;
+  height: calc(100vh - 32px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  background-color: #fff;
+  border-radius: 16px;
+  min-width: 320px;
+  max-width: 320px;
+
+  > .sidebar__brand {
+    padding: 16px 24px 12px 24px;
+  }
+
+  > .sidebar__content {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  > .sidebar__bottom {
+    margin-top: auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .sidebar__user {
+    display: flex;
+    gap: 12px;
+    padding: 0 20px;
+
+    > .sidebar__user-details {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      > .sidebar__user-name {
+        font-weight: 500;
+        letter-spacing: -0.25px;
+        color: #131313;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

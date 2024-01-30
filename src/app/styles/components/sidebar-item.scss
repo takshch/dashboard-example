@@ -1,0 +1,63 @@
+.sidebar-item {
+  padding: 12px 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  > .sidebar-item__left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    > .sidebar-item__icon {
+      width: 16px;
+      height: 16px;
+
+      > svg {
+        > path {
+          stroke: #7d7d7d;
+        }
+      }
+    }
+
+    > .sidebar-item__text {
+      color: #131313;
+      text-transform: capitalize;
+      line-height: 12px;
+      letter-spacing: -0.25px;
+      font-family: Inter;
+    }
+  }
+}
+
+.sidebar-item--highlighted {
+  > .sidebar-item__left {
+    > .sidebar-item__icon {
+      > svg {
+        > path {
+          stroke: #ffa500;
+        }
+      }
+    }
+  }
+}
+
+.sidebar-item-logout {
+  > .sidebar-item {
+    > .sidebar-item__left {
+      > .sidebar-item__icon {
+        > svg {
+          > path {
+            stroke: #b01212;
+          }
+        }
+      }
+
+      > .sidebar-item__text {
+        color: #b01212;
+      }
+    }
+  }
+}
