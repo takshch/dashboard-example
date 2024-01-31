@@ -62,17 +62,6 @@ function TopStats({ quaterGoalsPercentage = '84' }) {
     series0.ticks.template.set('forceHidden', true);
     series0.labels.template.set('forceHidden', true);
 
-    // chart.seriesContainer.children.push(
-    //   am5.Label.new(root, {
-    //     textAlign: 'center',
-    //     centerY: am5.p100,
-    //     centerX: am5.p50,
-    //     text: '[fontSize:18px]total[/]:\n[bold fontSize:30px]1647.9[/]',
-    //   })
-    // );
-
-    // Set data
-    // https://www.amcharts.com/docs/v5/charts/percent-charts/pie-chart/#Setting_data
     series0.data.setAll(DATA);
 
     return () => {
@@ -128,14 +117,11 @@ function TopStats({ quaterGoalsPercentage = '84' }) {
         </div>
       </div>
 
-      <div className="basis-full grow flex flex-col p-6 gap-6 bg-white rounded-2xl">
+      <div className="basis-full grow flex flex-col p-6 gap-6 bg-white rounded-2xl w-fit">
         <div className="font-semibold text-xl">Quarter goal</div>
 
         <div className="flex flex-col gap-2">
           <div id="quater-goal" className="w-full	h-28"></div>
-          {/* <div className="flex gap-2 items-center">
-          <div className="font-medium text-5xl">84%</div>
-        </div> */}
         </div>
 
         <div

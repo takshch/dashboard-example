@@ -9,6 +9,7 @@ import {
 import SidebarLogoutItem from './Sidebar/SidebarLogoutItem';
 import Avatar from './Avatar';
 import Tag from './Tag';
+import ToggleButton from './Sidebar/ToggleButton';
 
 function Sidebar() {
   return (
@@ -25,6 +26,11 @@ function Sidebar() {
         ))}
       </div>
       <div className="sidebar__bottom">
+        <div className="absolute top-0 right-0">
+          <div className="absolute -translate-x-2/4">
+            <ToggleButton isOpened={true} />
+          </div>
+        </div>
         <div className="sidebar__user">
           <Avatar src={USER_DATA.avatar} text={USER_DATA.name} />
           <div className="sidebar__user-details">
