@@ -1,3 +1,13 @@
+# Deployed Version
+https://orange-farm-chakr.vercel.app/
+
+# Screenshots
+![image](https://github.com/takshch/dashboard-example/assets/26649558/9c4645c9-9b2d-4909-94c1-6e996823402c)
+
+
+
+
+# About Project
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
