@@ -1,4 +1,4 @@
-import { SIDEBAR_LOGOUT_ITEM } from '../sidebarData.ts';
+import { SIDEBAR_LOGOUT_ITEM } from '../sidebarData';
 import SidebarItem from './SidebarItem';
 
 const { text, icon: LogoutIcon } = SIDEBAR_LOGOUT_ITEM;
