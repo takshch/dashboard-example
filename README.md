@@ -3,8 +3,8 @@ https://orange-farm-chakr.vercel.app/
 
 # Screenshots
 ![image](https://github.com/takshch/dashboard-example/assets/26649558/9c4645c9-9b2d-4909-94c1-6e996823402c)
-
-
+![image](https://github.com/takshch/dashboard-example/assets/26649558/5570ead9-5fb6-41f6-8e64-eefc3fe3a5f3)
+![image](https://github.com/takshch/dashboard-example/assets/26649558/5f19c701-fdc9-4b79-b832-8c91b8b5bc4b)
 
 
 # About Project
