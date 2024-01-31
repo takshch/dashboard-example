@@ -2,7 +2,6 @@
 
 import { useRef, useLayoutEffect } from 'react';
 import * as am5 from '@amcharts/amcharts5';
-import * as am5xy from '@amcharts/amcharts5/xy';
 import am5themes_Animated from '@amcharts/amcharts5/themes/Animated';
 import * as am5percent from '@amcharts/amcharts5/percent';
 import UpArrowIcon from '../../../assets/arrow-up-right.svg';
@@ -77,7 +76,10 @@ function TopStats({ quaterGoalsPercentage = '84' }) {
         <div className="flex flex-col gap-2">
           <div className="flex gap-2 items-center">
             <div className="font-medium text-5xl">15%</div>
-            <div className="flex items-center justify-center">
+            <div
+              className="flex items-center justify-center"
+              style={{ color: '#25CD25' }}
+            >
               <UpArrowIcon />
             </div>
           </div>
